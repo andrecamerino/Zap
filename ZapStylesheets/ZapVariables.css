@@ -1,0 +1,7 @@
+:root {
+    --primary-background-color: white;
+    --primary-font: 'Roboto', sans-serif;
+    --primary-text-color: black;
+    --primary-button-color: rgb(255, 166, 0);
+    --secondary-color: lightgray; /* Added for the course-list border */
+}

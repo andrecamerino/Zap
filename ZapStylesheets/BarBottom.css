@@ -1,0 +1,46 @@
+.bottom-bar {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    background-color: var(--primary-background-color);
+    bottom: 0;
+    box-shadow: 0 0.5vh 5vh rgb(0, 0, 0, 0.4);
+    padding: 2% 0;
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 5%;
+    align-items: center;
+}
+
+.order-total {
+    padding-left: 10%;
+}
+
+.bottom-bar p {
+    font-size: 0.6em;
+}
+
+.bottom-bar h2 {
+    font-size: 1.2em;
+}
+
+.order-total h6 {
+    text-align: right;
+}
+
+.order-text {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.order-button {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-button-color);
+    text-decoration: none;
+    color: var(--primary-text-color);
+    border-radius: 25px;
+}
