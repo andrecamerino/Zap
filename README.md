@@ -18,3 +18,6 @@ Zap is an online web app designed for small business. The idea is to scan a QR c
 - Ensure internet connection
 - Scan QR code
 - No installation required!
+
+## Acknoledgements
+- Created by Andre Camerino
