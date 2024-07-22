@@ -23,9 +23,7 @@
 }
 
 .header a {
-    line-height: 1;
     color: var(--primary-text-color);
-    text-decoration: none;
     font-size: 1.3rem;
     height: 1.5rem;
     width: min-content;

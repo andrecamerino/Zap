@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zap</title>
 
-    <link rel="stylesheet" href="ZapStylesheets/ZapMain.css">
+    <link rel="stylesheet" href="ZapStylesheets/ZapMain.css" />
   </head>
   <body>
+    <div class="popup-screen">
+      <div class="popup-div">
+        <div class="exit-button">x</div>
+        <img class="popup-image" src="FoodImages/FrenchFries.jpeg" alt="" />
+        <h4 class="popup-title">French Fries</h4>
+        <p class="popup-description">I love french fries yum yum yum</p>
+        <label class="options-checkbox">
+          Option 1
+          <input
+            type="checkbox"
+            id="myCheckbox"
+            onclick="handleCheckboxChange()"
+          />
+        </label>
+      </div>
+    </div>
+
     <div class="top-bar">
       <div class="header">
         <h3>Burger King ▾</h3>
