@@ -75,11 +75,7 @@ export let exampleCourseSections = [
 
 // these are only examples of courses and will be removed for auto generation
 export let courses = [
-    "Whoop Whoop",
     "Whoppers",
-    "Meals",
-    "Deals",
     "Sides",
     "Drinks",
-    "Deserts",
   ];

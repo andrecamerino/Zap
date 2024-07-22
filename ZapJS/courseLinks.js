@@ -21,8 +21,6 @@ export const createCourseLinks = (courses) => {
   
       // Append the div element to the course-list container
       courseList.appendChild(courseDiv);
-  
-      console.log(courseDiv);
     });
   };
   

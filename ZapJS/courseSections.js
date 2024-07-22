@@ -55,7 +55,6 @@ const createCourseSection = (id, title, imageUrl, price) => {
   
     // Create multiple course sections
     courses.forEach((course) => {
-      console.log(course);
       const section = createCourseSection(
         course.id,
         course.title,
